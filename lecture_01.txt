@@ -1,0 +1,38 @@
+what is linux?  operating system (windows,mac,..)-->operating system connect hardware to software
+
+why use linux? 1-linux is open source
+                2- full of tools ethical hackers 
+
+
+linux? 1-bootloader: the first file to start the operating system
+        2- kernel : the kernel is the heart of the operating system
+        3- Daemons: services that work with the operating system
+
+
+#########################################################################
+core commands:
+
+1-ls--> list files (ls <directory name>)
+
+2- cd--> change directory (cd <directory name>)
+
+3- cd .. --> Go one directory to the back (cd ..)
+
+4-cp --> copy files (cp <file name> <path to the new location>)
+
+5-mv --> move or rename ( for moving syntax: mv <file name> <path to directory/directory>
+
+                            for rename : mv <file name> <path to directory>)
+
+6- mkdir --> make directory (mkdir <directory name>)
+
+7- rmdir --> remove directory !!!empty if not use command 8 (rmdir <directory name>)
+
+8- rm -r <directory name> or rm <file name>
+
+9- grep --> search text inside a file (grep <'string'> <.txt>)
+
+10- Head --> displays specfic from a file (head <file name>)
+
+11- man --> displays the manual (man <command>)
+#############################################################################
