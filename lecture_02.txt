@@ -1,0 +1,37 @@
+11- tail --> display last 10 files of the file (tail <file name>)
+
+        display the file with real time update (tail -f <file name>)
+
+12- less --> (less <file name>)
+
+13- ps --> display the process associated with the current terminal(ps)
+
+            ps -aux --> a show process from all users
+                        u detailed oriented format
+                        x forground and background process
+
+14- lsof --> display currently open files 
+                
+15- netstat --> dsiplay network connections
+
+16- sort--> sort a file (sort <example file>)
+
+17- unique--> remove duplicate from a file , it must be sorted first (unique <test>)
+
+18- stat --> display information about a file (stat <filename>)
+
+19- whoami -->show the current user
+
+20- passwd --> change password for a user (passwd <username>)
+
+21- kill --> terminate a process (kill <process pid>)
+
+22- ln --> create a file link so that changes affect each other but not deleting (ln <jawad> <ju>)
+
+           create a symbloic link so that changes affect each other even deleting (ln -s <jawad> <ju>)
+
+23- find / -name <file name> (search all the directoris for a file)
+
+24 - nano --> text editor (nano <file name>)
+
+25- finger --> last login info
