@@ -1,0 +1,69 @@
+-26 df --> display usage used on different file system files (df or df -h)
+
+-27 du --> shows the size of each directory and its subdirectories (du -h)
+
+-28 touch --> create a file (touch <file name>)
+
+-29 locate --> find the path of files and directories by searching through database (locate <example.txt>)
+                                                                                    (locate -i <example.txt> -n 5)
+-30 man --> manual returnes the explenation for a command (man grep)
+
+-31 which --> the full path of the executable that would run (which <man>)
+
+-32 echo --> - Print plain text (echo 'jawad')
+
+             - Print the value of variables (name=alice; echo $name) 
+
+             - Create quick files and redirect output (using > )
+
+-33 whatis --> return one-line description.
+
+-34 more --> view the contents of a text file one screen at a time (more <example.txt>)
+
+-35 vim --> powerful and advanced text editor
+
+**writing commmands 
+    i --> to enter insert mode and start typing (press esc to return to normal mode)
+
+    :wq --> write and quite 
+
+    :q! --> (quit without saving)
+
+    :w --> save without quitting
+
+**navigating commands
+
+Arrow keys --> (move up,left and right)
+
+gg --> go to the begging of the file
+
+G --> go to the end of the file
+
+**search for text
+
+/<text to search>
+
+n --> find next result
+
+N --> find previous result
+
+**delete text
+
+dd --> delete a whole line
+
+dw --> delete a word
+
+d$ --> delete the end of a line
+
+**copy and paste
+
+yy --> copy a line
+
+p --> paste after
+
+P --> paste before
+
+** undo and redo 
+u --> undo
+
+ctrl + r --> redo the undo 
