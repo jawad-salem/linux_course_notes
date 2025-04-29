@@ -1,0 +1,45 @@
+### core commands part 4 ###
+ 
+1- sed --> let you search for occurrences of a word or a text pattern and then perform some action on it
+
+** sed s/<word to search>/<new word to replace>/g <the path to file we edit> > <name to save> **
+
+2- tar --> used to archive files 
+
+**tar -cvf archive.tar <file1> <file2> <file3>**
+**tar -xf archive.tar** 
+
+3- gzip & gunzip --> compressing and decompressing 
+
+**gzip Hacker.tar**
+
+**gunzip Hacker.tar**
+
+other similiar: bzip2 & bunzip2 (.tar.bz2) || compress & uncompress (.tar.z)
+
+4- file --> file type **file <file>**
+
+5- history --> lists previous commands used
+-------------------------------------------------------------------------------------------------
+
+### special charachters ###
+
+1- ; --> command seperator
+
+2- && --> run the second command if the first one is working
+
+3- || --> run the second command even if the first one failed
+-------------------------------------------------------------------------------------------------
+
+### Redirecetion and pip ### (output=1 / errors=2)
+1- > redirect standard output 
+
+** ls >> output.txt**
+** ls 1>> ouput.txt 2>>&1 **
+
+2- pipe --> redirect standard ouput to a different command
+
+** cat jawad.txt | grep "admin" 
+
+
+
