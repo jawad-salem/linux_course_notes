@@ -1,0 +1,59 @@
+#### Linux File System ####
+
+Linux don't have a physical drive it uses a unified file system instead called the root of the file system --> (/) 
+
+** /root --> The home directory of the all-powerfull root user
+
+** /etc --> Generally contain the linux configuration file ( files that control when and how programs start up )
+
+** /home --> The user home directory
+
+** /mnt --> where other filesystems are attached or mounted to the file system
+
+** /media --> where CD's and USB devices are usually attached or mounted to the file system 
+
+** /bin --> where application binaries are found ( same as the exe in windows )
+
+** /sbin --> essential system binaries
+
+** /lib --> where you will find your libraries ( shared code files used by multiple programs )
+
+----------------------------------------------------------------------------------------------------------
+
+#### Analyzing and managing networks ####
+
+starting with ifconfig:
+
+** MAC Adress : globally unique identefier that is hard-coded on the NIC .
+
+** IP address : used to access internet .
+
+** lo (loop back) : connects you to your own system (e.g test your web server ) .
+
+** wlan : appears when you have a wireless interface or adapter .
+
+** iwconfig : get information if you have wireless adapter .
+
+** changing ip address : ifconfig eht0 192.168.1.6
+
+** changing mac address : 
+
+- ifconfig eth0 down
+
+- ifconfig eth0 hw ether 00:11:22:33:44:55
+
+- ifconfig eth0 up
+
+** what is DNS --> translates a domain name like appropriate IP address that way your system knows how to get to it.
+
+- using dig to get information about a target DNS
+------------------------------------------------------------------------------------------------------------------------
+*** Assignment? ****
+
+1- private and public ip address and the difference between them ? 
+
+2- what are the types of the dns records ?
+
+3- what is the mx record ?
+
+4- what is subnet mask ?
